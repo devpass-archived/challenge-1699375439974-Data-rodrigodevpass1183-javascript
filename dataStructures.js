@@ -4,11 +4,11 @@ class Stack {
   }
 
   push(element) {
-    // Add your solution here!
+    this.items.push(element);
   }
 
   pop() {
-    // Add your solution here!
+    this.items.pop();
   }
 
   getItems() {
@@ -22,11 +22,11 @@ class Queue {
   }
 
   enqueue(element) {
-    // Add your solution here!
+    this.items.push(element);
   }
 
   dequeue() {
-    // Add your solution here!
+    this.items.shift();
   }
 
   getItems() {
